@@ -16,6 +16,7 @@ CHANNEL_ID = int(os.environ['CHANNEL_ID'])
 # Discord bot setup
 intents = discord.Intents.default()
 intents.message_content = True
-bot = commands.Bot(command_prefix='_
+bot = commands.Bot(command_prefix='!', intents=intents)
+
 
 
